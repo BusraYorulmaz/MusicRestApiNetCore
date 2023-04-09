@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdxTm2RMzIUKOL6tD+KI6ygAAAAACAAAAAAAQZgAAAAEAACAAAADpkKcO3Om6iJjAvrGIbKYI8LkjFsSI2camsNOOalPhoAAAAAAOgAAAAAIAACAAAADOlbxgVBnqDwTr0BCUKzLCZoMaejdNtUyq+ihvVL6xe4AAAAB5J6t6ugrSNex0hOR3O6w7RluH6/qPiyuqZwFLlzIWsKS/8BZE7hme2iQevfiK+fnlHfwwau7IfQ3fvTE7rVGT8bNSn4uC3rMG6L3+OsiJ0WmmX5cB7aYOz4yMm2oWOIXIzzsHrEDui/Ghb/P0X6ikDImM4yCEznufowgMoLPkekAAAACWL4SW9eBFA268nyFtLG3Q63XgsCX+O1PHE9nTQOn1XHiVbDuNSUIblYVEr85qjwkul91TXgKJ00ajkRfZd4/Q</EncryptedPassword>
+    <History>False|2023-04-05T09:36:07.8073559Z;False|2023-04-05T12:35:44.7882450+03:00;False|2023-04-05T12:35:08.0077073+03:00;False|2023-04-05T12:30:29.5884666+03:00;False|2023-04-05T12:16:34.4609705+03:00;False|2023-04-05T12:15:12.8464411+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="TutorialDbConnection">
+      <Value>Server=tcp:music-apiserver.database.windows.net,1433%3bInitial Catalog=musicdb%3bPersist Security Info=False%3bUser ID=busrayorulmaz%3bPassword=b26082000a_%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MusicApi.Data.ApiDbContext">
+      <Value>Server=tcp:music-apiserver.database.windows.net,1433%3bInitial Catalog=musicdb%3bPersist Security Info=False%3bUser ID=busrayorulmaz%3bPassword=b26082000a_%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

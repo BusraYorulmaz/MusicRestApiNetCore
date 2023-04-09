@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdxTm2RMzIUKOL6tD+KI6ygAAAAACAAAAAAAQZgAAAAEAACAAAADygkJkxKK0VIteC9QUFT5JCXUwo5aQ5CFkcKGtLY1uPQAAAAAOgAAAAAIAACAAAABn5WMM0xEhacygyBpQLLHEv8JiJpCW3bFd7EUIjj9MRYAAAAB42nKR0LhiLV35V1gTRyted41HivwBzfXVrefPTEdy5yQ9OPUMnJDPfJulSZUuoVVBPTuqOeoSabXlUHUQ/ba9eFgOKuo8pu7K76/jmvPZDY5fQ7ltKbLxqPKSZXoRV8Pa8uMSEVnePq6qR9oeYPqPeAQhzTvoCW+6925BuscfeEAAAAB7RYgS5tYKUEkFKlnw0HzH0xY2pTYil3YJyBXFFTG9J6CHot9QCv8rrpPpG0jjIbovDsw3w8a3I8Vrrmqeq48D</EncryptedPassword>
+    <History>True|2023-04-05T20:31:36.7811318Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="MusicApi.Data.ApiDbContext">
+      <Value>Server=tcp:bymusicserver.database.windows.net,1433%3bInitial Catalog=musicdb%3bPersist Security Info=False%3bUser ID=busrayorulmaz%3bPassword=b26082000a_%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

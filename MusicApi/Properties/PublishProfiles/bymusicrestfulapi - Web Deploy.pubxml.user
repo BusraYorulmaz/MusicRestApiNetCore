@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdxTm2RMzIUKOL6tD+KI6ygAAAAACAAAAAAAQZgAAAAEAACAAAAA1yyZiypzyIMi4Rs1mo9VPqhJ/sJ0oNgC8eHcz077QpQAAAAAOgAAAAAIAACAAAAA6HwqasKD3gTvTd3lp1sl6y501uYXaD5t/fn8MY+ptmIAAAAD7o3l8ASEQkwfTaPHjz7+pR8Egfe+ROShQHAA03HI29lfJk31ENro5sW5RQjLSgwoEuHKtrHEr4z9vVXIF3WUk8wqoTrtgylJdEQ65+hvWA03TB0Qybecw06hbBigsI+BVzsjRoGijGKqkJTm8F5i9SdBO+iO0E5+a58Db19aQrUAAAADwMp9GN7DleDTGZEBm3aSyVH0wMsWz19/ztRtrLzkCnQqVHZh3ZXsApIpE48qb0OpIwkKoMwjl1siWk9V//XyB</EncryptedPassword>
+    <History>False|2023-04-05T20:22:10.3923746Z;False|2023-04-05T23:20:20.8524225+03:00;False|2023-04-05T22:58:13.1828093+03:00;False|2023-04-05T22:54:16.4809775+03:00;False|2023-04-05T22:42:07.2894487+03:00;False|2023-04-05T22:39:07.0157818+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="MusicApi.Data.ApiDbContext">
+      <Value>Server=tcp:bymusicserver.database.windows.net,1433%3bInitial Catalog=musicdb%3bPersist Security Info=False%3bUser ID=busrayorulmaz%3bPassword=b26082000a_%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
